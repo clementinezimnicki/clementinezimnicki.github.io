@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>.
 
 profile:
   align: right
-  image: clem_pic.jpg
+  image: clem_pic.png
   image_cicular: true # crops the image to make it circular
   #address: >
   #  <p>555 your office number</p>
