@@ -1,11 +1,11 @@
 ---
 layout: page
-title: sometimes, I make art.
+title: art
 permalink: 
-description: 
+description: sometimes, I make art.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+#display_categories: [work, fun]
 horizontal: false
 ---
 
