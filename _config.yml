@@ -105,9 +105,9 @@ pagination:
 # External sources.
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+#external_sources:
+ # - name: medium.com
+ #   rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -118,10 +118,10 @@ collections:
     defaults:
       layout: post
     output: true
-    permalink: /news/:path/
+    #permalink: /news/:path/
   projects:
     output: true
-    permalink: /projects/:path/
+    #permalink: /projects/:path/
 
 news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
 news_limit: 5 # leave blank to include all the news in the `_news` folder
@@ -132,7 +132,7 @@ news_limit: 5 # leave blank to include all the news in the `_news` folder
 
 # Markdown and syntax highlight
 markdown: kramdown
-highlighter: rouge
+highlighter: blue # was rouge originally
 highlight_theme_light: github  # https://github.com/jwarby/jekyll-pygments-themes
 highlight_theme_dark: native  # https://github.com/jwarby/jekyll-pygments-themes
 kramdown:
