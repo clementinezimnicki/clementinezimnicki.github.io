@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. 
+#subtitle: <a href='#'>Affiliations</a>. 
 
 profile:
   align: right
@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-hi!
+Hi!
 
 I'm a Psychology PhD student at the University of Wisconsin-Madison.
 
