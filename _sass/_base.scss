@@ -183,10 +183,11 @@ blockquote {
   .navbar-brand.social {
     padding-bottom: 0;
     padding-top: 0;
-    font-size: 1.7rem;
+    padding-left: 50; //didn't exist before
+    font-size: 1.2rem; //1.7rem;
     a {
       i::before {
-        color: var(--global-text-color);
+        color: #e8c1d3; //var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
       }
       &:hover {
@@ -246,12 +247,12 @@ blockquote {
 // Social (bottom)
 
 .social {
-  text-align: center;
+  text-align: right; //originally center
   .contact-icons {
-    font-size: 4rem;
+    font-size: 3rem;
     a {
       i::before {
-        color: var(--global-text-color);
+        color: #e8c1d3; //var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
       }
       &:hover {
