@@ -10,7 +10,7 @@ permalink: /cv
 
  <div class="columns download">
     <p>
-        <a href="assets/pdf/CV_clementine_zimnicki.pdf" class="button" download><i class="fa fa-download"></i>Download CV</a>
+        <a href="CV_clementine_zimnicki.pdf" class="button" download><i class="fa fa-download"></i>Download CV</a>
     </p>
 </div>
 
