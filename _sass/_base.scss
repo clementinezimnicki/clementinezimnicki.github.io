@@ -17,7 +17,7 @@ table {
     color: var(--global-text-color);
   }
   td {
-    font-size: 1rem;
+    font-size: 5rem;
   }
 }
 
@@ -97,6 +97,15 @@ blockquote {
   width: 100%;
 
   .address {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: monospace;
+    p {
+      display: inline-block;
+      margin: 0;
+    }
+  }
+  .name {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
