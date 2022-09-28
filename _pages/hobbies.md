@@ -1,6 +1,6 @@
 ---
 layout: page
-title: art
+title: hobbies
 permalink: 
 description: sometimes, I make art.
 nav: true
@@ -9,7 +9,6 @@ nav_order: 3
 horizontal: false
 ---
 
-<!-- pages/art.md -->
-assets/img/loch_ness_art.jpg
-assets/img/grookey.jpg
-assets/img/ramen.jpg
+<!-- pages/hobbies.md -->
+In addition to being an academic, I also dabble in baking and digital art. Here are some of the things I've made!
+
