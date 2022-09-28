@@ -29,16 +29,17 @@ layout: default
               alt=page.profile.image -%}
             {% endif -%}
             {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
+              <div class="address">
+                {{ page.profile.address }}
+              </div>
             {% endif -%}
+
             {%- if page.profile.name %}
-            <div class="name">
-              {{ page.profile.name }}
-            </div>
+              <div class="name">
+                {{ page.profile.name }}
+              </div>
+            
             {% endif -%}
-            {%- endif %}
           </div>
           {%- endif %}
 
