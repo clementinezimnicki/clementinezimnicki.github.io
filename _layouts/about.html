@@ -32,10 +32,12 @@ layout: default
             <div class="address">
               {{ page.profile.address }}
             </div>
+            {% endif -%}
             {%- if page.profile.name %}
             <div class="name">
               {{ page.profile.name }}
             </div>
+            {% endif -%}
             {%- endif %}
           </div>
           {%- endif %}
@@ -64,6 +66,6 @@ layout: default
             </div>
             
           </div>
-         <!--{%- endif %}-->
+         {%- endif %}
         </article>
 </div>
