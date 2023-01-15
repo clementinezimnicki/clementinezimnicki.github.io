@@ -149,7 +149,7 @@ blockquote {
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);
   a:not(.active) {
-    color: var(--global-text-color);
+    color: var(--white); //var(--global-text-color);
   }
   a:hover {
     color: var(--global-hover-color);
