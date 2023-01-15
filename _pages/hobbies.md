@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: about
 title: hobbies
-permalink: 
+permalink: /hobbies
 description: sometimes, I make art.
 nav: true
 nav_order: 3
