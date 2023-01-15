@@ -261,7 +261,7 @@ blockquote {
     font-size: 3rem;
     a {
       i::before {
-        color: #d68faf; //var(--global-text-color);
+        color: var(--global-hover-color);
         transition-property: all 0.2s ease-in-out;
       }
       &:hover {
