@@ -14,5 +14,8 @@ permalink: /resume
 
 <p><object src="assets/pdf/czimnicki_resume.pdf" type="application/pdf" width="800" height="500"> </object></p>
 
+<iframe src="/assets/pdf/czimnicki_resume.pdf" width="100%" height="500px">
+    </iframe>
+
 
 
