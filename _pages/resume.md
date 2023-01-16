@@ -3,17 +3,17 @@ layout: cv
 #permalink: /cv/
 title: 
 nav: true
-nav_order: 2
-cv_pdf: CV_clementine_zimnicki.pdf
-permalink: /cv
+nav_order: 3
+cv_pdf: czimnicki_resume.pdf
+permalink: /resume
 ---
 
-<p>Download my CV <a href="/assets/pdf/CV_clementine_zimnicki.pdf">here</a>.</p>
+<p>Download my CV <a href="assets/pdf/czimnicki_resume.pdf">here</a>.</p>
 
 <!-- <embed src="assets/pdf/CV_clementine_zimnicki.pdf" type="application/pdf" width="100%" height="600px" /> -->
 
 <object data=
-"assets/pdf/CV_clementine_zimnicki.pdf" 
+"assets/pdf/czimnicki_resume.pdf" 
                 width="800" 
                 height="500"> 
         </object>
