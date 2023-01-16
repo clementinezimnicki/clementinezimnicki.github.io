@@ -8,7 +8,7 @@ profile:
   align: right
   image: clem_pic.png
   image_cicular: true # crops the image to make it circular
-  #name: Clementine Zimnicki
+  name: Clementine Zimnicki
   #  <p>555 your office number</p>
   #  <p>123 your address street</p>
   #  <p>Your City, State 12345</p>
