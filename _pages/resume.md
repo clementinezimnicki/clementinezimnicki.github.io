@@ -1,5 +1,5 @@
 ---
-layout: cv
+layout: about
 #permalink: /cv/
 title: resume
 nav: true
@@ -12,7 +12,7 @@ permalink: /resume
 
 <!-- <embed src="assets/pdf/CV_clementine_zimnicki.pdf" type="application/pdf" width="100%" height="600px" /> -->
 
-<object data=
+<object src=
 "assets/pdf/czimnicki_resume.pdf" 
                 width="800" 
                 height="500"> 
