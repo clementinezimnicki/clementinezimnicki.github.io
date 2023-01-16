@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-<p style="font-size:50px"> Hi! </p>
+<p style="font-size:50px;"> Hi! </p>
 
 I'm a Psychology PhD student at the University of Wisconsin-Madison.
 
