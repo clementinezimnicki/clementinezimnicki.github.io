@@ -17,7 +17,7 @@ table {
     color: var(--global-text-color);
   }
   td {
-    font-size: 5rem; //was 1rem
+    font-size: 10rem; //was 1rem
   }
 }
 
@@ -41,7 +41,7 @@ blockquote {
   border-left: 2px solid var(--global-theme-color);
   margin: 1.5em 10px;
   padding: 0.5em 10px;
-  font-size: 1.2rem;
+  font-size: 2.4rem; //was 1.2
 }
 
 // Math
@@ -54,7 +54,7 @@ blockquote {
 // Caption
 
 .caption {
-  font-size: 0.875rem;
+  font-size: 2rem; //was .875
   margin-top: 0.75rem;
   margin-bottom: 1.5rem;
   text-align: center;
@@ -127,7 +127,7 @@ blockquote {
 
 .post-description {
   margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-size: 2rem; //was .875
   a {
     color: inherit;
     &:hover {
@@ -192,7 +192,7 @@ blockquote {
     padding-bottom: 0;
     padding-top: 0;
     //padding-left: 50; 
-    font-size: 1.2rem; //1.7rem;
+    font-size: 2rem; //1.2rem;
     a {
       i::before {
         color: #d68faf; //var(--global-text-color);
