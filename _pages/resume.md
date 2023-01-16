@@ -17,5 +17,12 @@ permalink: /resume
 <iframe src="/assets/pdf/czimnicki_resume.pdf" width="100%" height="500px">
     </iframe>
 
+<embed
+	src="dassets/pdf/czimnicki_resume.pdf"
+	type="application/pdf"
+	width="100%"
+	height="100%"
+/>    
+
 
 
