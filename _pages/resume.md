@@ -13,7 +13,7 @@ permalink: /resume
 <!-- <embed src="assets/pdf/CV_clementine_zimnicki.pdf" type="application/pdf" width="100%" height="600px" /> -->
 
 <object src=
-"assets/pdf/czimnicki_resume.pdf" 
+"/assets/pdf/czimnicki_resume.pdf" 
                 width="800" 
                 height="500"> 
         </object>
