@@ -20,8 +20,8 @@ social: true  # includes social icons at the bottom of the page
 
 <p style="font-size:50px;"> Hi! </p>
 
-I'm a Psychology PhD student at the University of Wisconsin-Madison.
-
+<p style="font-size:30px;">I'm a Psychology PhD student at the University of Wisconsin-Madison.
+<br>
 In 2020, I joined the Schloss Visual Reasoning Lab, where I study visual reasoning. I'm interested in how people map visual features to concepts, and how they use those mappings to infer meaning from information visualizations. In addition to the Schloss Lab, I'm affiliated with the Wisconsin Institute for Discovery.
-
-I graduated in 2020 with a BS in Psychology from the University of Illinois at Urbana-Champaign. There, I was advised by Diane Beck, and studied spontaneous EEG alpha oscillations.
+<br>
+I graduated in 2020 with a BS in Psychology from the University of Illinois at Urbana-Champaign. There, I was advised by Diane Beck, and studied spontaneous EEG alpha oscillations.</p>
