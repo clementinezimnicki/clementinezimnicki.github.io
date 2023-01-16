@@ -192,7 +192,7 @@ blockquote {
     padding-bottom: 0;
     padding-top: 0;
     //padding-left: 50; 
-    font-size: 2rem; //1.2rem;
+    font-size: 5rem; //1.2rem;
     a {
       i::before {
         color: #d68faf; //var(--global-text-color);
@@ -257,7 +257,7 @@ blockquote {
 .social {
   text-align: right; //originally center
   .contact-icons {
-    font-size: 3rem;
+    font-size: 5rem; //3rem
     a {
       i::before {
         color: var(--global-hover-color);
@@ -271,7 +271,7 @@ blockquote {
     }
   }
   .contact-note {
-    font-size: 0.8rem;
+    font-size: 2rem; //.8rem
   }
 }
 
@@ -330,7 +330,7 @@ footer.sticky-bottom {
   padding-bottom: 5rem;
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 10rem; //5rem
   }
 }
 
@@ -345,7 +345,7 @@ footer.sticky-bottom {
     padding-bottom: 2rem;
     .post-meta {
       color: var(--global-text-color-light);
-      font-size: 0.875rem;
+      font-size: 0.875rem; //.875
       margin-bottom: 0;
     }
     .post-tags {
@@ -371,6 +371,7 @@ footer.sticky-bottom {
       &:hover {
         color: $black-color;
       }
+      font-size: 2rem; //used to not exist
     }
     &.active .page-link {
       color: $white-color;
