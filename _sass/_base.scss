@@ -257,7 +257,7 @@ blockquote {
 .social {
   text-align: right; //originally center
   .contact-icons {
-    font-size: 5rem; //3rem
+    font-size: 3rem; //3rem
     a {
       i::before {
         color: var(--global-hover-color);
@@ -278,7 +278,7 @@ blockquote {
 
 // Footer
 footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
+  background-color: #383838;
   font-size: 0.75rem;
   .container {
     color: var(--global-footer-text-color);
