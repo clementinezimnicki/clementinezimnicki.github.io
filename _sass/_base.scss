@@ -166,7 +166,7 @@ blockquote {
     display: inline-block;
     margin: 0;
     color:#ffffff;
-    font-size:2rem;
+    font-size:1rem;
   }
 }
 .navbar .dropdown-menu {
@@ -199,7 +199,7 @@ blockquote {
     color: var(--global-text-color);
   }
   .navbar-nav .nav-item .nav-link {
-    font-size:1rem;//added this
+    font-size:15px;//added this
     color: var(--white);
     &:hover {
       color: var(--global-hover-color);
