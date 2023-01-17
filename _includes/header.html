@@ -3,11 +3,14 @@
 
       <!-- Nav Bar -->
       <nav id="navbar" style="background:#383838" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
-        {{ site.name1 }}
+        <div class="name_top">
+          {{ site.name1 }}
+        </div>
+        
         <div class="container">
           {% if page.permalink != '/' -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-              {%- if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif -%}
+              <!--{%- if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif -%}-->
           </a>
           {%- elsif site.enable_navbar_social -%}
           <!-- Social Icons -->
