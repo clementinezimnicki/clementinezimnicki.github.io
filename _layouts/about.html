@@ -52,6 +52,10 @@ layout: default
           {%- endif %}
           {%- if page.social %}
           <!-- Social -->
+          <div align="right" class="name" font-size="15px">
+            {{site.first_name}}{{site.last_name}}
+          </div>
+
           <div class="social">
             <div align="right" class="contact-icons">
             {% include social.html %}
@@ -61,9 +65,7 @@ layout: default
               {{ site.contact_note }}
             </div>
 
-            <div align="right" class="name">
-              {{site.first_name}}{{site.last_name}}
-            </div>
+            
             
           </div>
          {%- endif %}
