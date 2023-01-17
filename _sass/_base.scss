@@ -94,6 +94,7 @@ blockquote {
 
 .profile {
   margin-left: 1rem;
+  margin-right:1rem;
   width: 100%;
 
   .address {
@@ -105,6 +106,7 @@ blockquote {
       margin: 0;
     }
   }
+  /*
   .name {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -113,7 +115,7 @@ blockquote {
       display: inline-block;
       margin: 0;
     }
-  }
+  }*/
 }
 
 @media (min-width: 576px) {
@@ -144,6 +146,15 @@ blockquote {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   opacity: 0.95;
+}
+.name {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-family: monospace;
+  p {
+    display: inline-block;
+    margin: 0;
+  }
 }
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
