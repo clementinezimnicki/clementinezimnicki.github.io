@@ -165,9 +165,11 @@ blockquote {
   margin-bottom: 5px;
   margin-top: 5px;
   font-family: monospace;
-  //p {
-  //  display: inline-block;
-  //  margin: 0;
+  p {
+    display: inline-block;
+  }
+  margin: 0;
+  font-family: monospace;
   color:#ffffff;
   font-size:15px;
   //}
