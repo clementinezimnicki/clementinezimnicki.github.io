@@ -108,15 +108,16 @@ blockquote {
     }
   }
   
-  .name {
+  .name_top {
     margin-bottom: 5px;
     margin-top: 5px;
     font-size: 20px;
-    font-family: monospace;
+    font-family: monospace
     p {
       display: inline-block;
       margin: 0;
     }
+    color:#d68faf;
   }
 }
 
@@ -161,19 +162,16 @@ blockquote {
   border-bottom: 1px solid var(--global-divider-color);
   opacity: 0.95;
 }
+/*
 .name_top {
   margin-bottom: 5px;
   margin-top: 5px;
-  font-family: monospace;
-  p {
-    display: inline-block;
-  }
-  margin: 0;
   font-family: monospace;
   color:#ffffff;
   font-size:15px;
   //}
 }
+*/
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);
