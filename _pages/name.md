@@ -1,6 +1,6 @@
 ---
-layout: about1
-title1: Clementine Zimnicki
+layout: about
+title_name: Clementine Zimnicki
 permalink: /
 #subtitle: <a href='#'>Affiliations</a>. 
 
