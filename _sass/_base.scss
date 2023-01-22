@@ -627,7 +627,7 @@ html.transition *:after {
 .post{
   .post-meta{
     color: var(--global-text-color-light);
-    font-size: 0.875rem;
+    font-size: 2rem; //.875rem
     margin-bottom: 0;
   }
   .post-tags{
