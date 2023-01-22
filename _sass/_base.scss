@@ -217,22 +217,6 @@ blockquote {
       }
   }
 
-  .navbar-nav .nav-item1 .nav-link {
-    font-size:30px;//added this
-    color: var(--white);
-    text-align: left;
-    &:hover {
-      color: var(--global-hover-color);
-    }
-  }
-  .navbar-nav .nav-item1.active>.nav-link {
-      background-color: inherit;
-      font-weight: bolder;
-      color: var(--global-theme-color);
-      &:hover {
-        color: var(--global-hover-color);
-      }
-  }
   .navbar-brand.social {
     padding-bottom: 0;
     padding-top: 0;
