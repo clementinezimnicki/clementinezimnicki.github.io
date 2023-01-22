@@ -55,7 +55,7 @@
 
               <!-- Other pages -->
               <!--Add name as nav-item1-->
-              <li class="nav-item1 {% if page.title == p.title %}active{% endif %}">
+              <li class="nav-item1 {% if page.title_name == p.title %}active{% endif %}">
                 <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title_name }}
                   {%- if page.title_name == p.title_name -%}
                   <span class="sr-only">(current)</span>
