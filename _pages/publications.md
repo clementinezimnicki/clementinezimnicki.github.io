@@ -5,7 +5,7 @@ title:
 description: 
 years: 
 nav: false
-nav_order: 1
+nav_order:
 ---
 <!-- _pages/publications.md -->
 <div class="publications">

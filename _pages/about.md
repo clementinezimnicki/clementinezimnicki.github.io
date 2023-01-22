@@ -26,5 +26,6 @@ social: true  # includes social icons at the bottom of the page
 <br> with the Wisconsin Institute for Discovery. </p>
 
 <p style="font-size:20px;">I graduated in 2020 with a BS in Psychology from the 
-<br> University of Illinois at Urbana-Champaign. There, I was advised by Diane Beck, and 
+<br> University of Illinois at Urbana-Champaign. There, I was
+<br> advised by Diane Beck, and 
 <br> studied spontaneous EEG alpha oscillations.</p>
