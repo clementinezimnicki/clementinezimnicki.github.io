@@ -7,7 +7,7 @@
         <div class="container">
           {% if page.permalink != '/' -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-              {%- if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif -%}
+              <!--{%- if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif -%}-->
           </a>
           {%- elsif site.enable_navbar_social -%}
           <!-- Social Icons -->
@@ -15,6 +15,9 @@
             {% include social.html %}
           </div>
           {% endif %}
+
+          {%- if site.title == "blank" -%}<span style="font-size:30px;color:#cf7da2;" class="font-weight-bold">{{ site.first_name }} {{ site.last_name }}</span>{%- else -%}{{ site.title }}{%- endif -%}
+          
           <!-- Navbar Toggle -->
           <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
