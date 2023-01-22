@@ -217,14 +217,15 @@ blockquote {
       }
   }
 
-  .navbar-nav .nav-item1 .nav-link {
-    font-size:20px;//added this
+  .navbar-nav .nav-item .nav-link {
+    font-size:30px;//added this
     color: var(--white);
+    text-align: left;
     &:hover {
       color: var(--global-hover-color);
     }
   }
-  .navbar-nav .nav-item1.active>.nav-link {
+  .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
       font-weight: bolder;
       color: var(--global-theme-color);
