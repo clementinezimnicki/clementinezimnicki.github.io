@@ -108,6 +108,32 @@ blockquote {
       color: var(--global-text-color)
     }
   }
+
+  // Social (bottom)
+
+.social {
+  text-align: right; //originally center
+  .contact-icons {
+    font-size: 3rem; //3rem
+    p {
+      display: inline-block;
+    }
+    a {
+      i::before {
+        color: var(--global-text-color);
+        transition-property: all 0.2s ease-in-out;
+      }
+      &:hover {
+        i::before {
+          color: var(--global-theme-color);
+        }
+      }
+    }
+  }
+  .contact-note {
+    font-size: 2rem; //.8rem
+  }
+}
   
   
 }
@@ -272,28 +298,7 @@ blockquote {
   }
 }
 
-// Social (bottom)
 
-.social {
-  text-align: right; //originally center
-  .contact-icons {
-    font-size: 3rem; //3rem
-    a {
-      i::before {
-        color: var(--global-hover-color);
-        transition-property: all 0.2s ease-in-out;
-      }
-      &:hover {
-        i::before {
-          color: var(--global-theme-color);
-        }
-      }
-    }
-  }
-  .contact-note {
-    font-size: 2rem; //.8rem
-  }
-}
 
 
 // Footer
