@@ -8,7 +8,7 @@ profile:
   align: right
   image: clem_pic.png
   image_cicular: true # crops the image to make it circular
-  name: Clementine Zimnicki
+  address: Clementine Zimnicki
     <p>Cognitive Scientist</p>
     <p>University of Wisconsin-Madison</p>
 nav: true
