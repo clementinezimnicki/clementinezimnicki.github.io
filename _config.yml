@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-name1: Clementine Zimnicki
+name: Clementine Zimnicki
 first_name: Clementine
 middle_name:
 last_name: Zimnicki
@@ -39,7 +39,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 900px
+max_width: 1000px
 
 # TODO: add layout settings (single page vs. multi-page)
 
