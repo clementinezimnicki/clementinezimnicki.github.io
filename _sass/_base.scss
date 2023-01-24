@@ -118,6 +118,8 @@ blockquote {
     font-size: 10rem; //3rem
     p {
       display: inline-block;
+      text-align: center;
+      margin: 0;
     }
     a {
       i::before {
@@ -141,12 +143,16 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 25%; //orig 30
+    width: 30%; //orig 30
     .address {
       p { display: block; }
     }
+    .social {
+      p { display: block; }
+    }
+    }
   }
-}
+
 
 .name {
   margin-bottom: 5px;
