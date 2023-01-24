@@ -118,7 +118,7 @@ blockquote {
 .social {
   //text-align: right; //originally center
   .contact-icons {
-    font-size: 10rem; //3rem
+    font-size: 3rem; //3rem
     p {
       display: inline-block;
       text-align: center;
@@ -126,12 +126,12 @@ blockquote {
     }
     a {
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-theme-color);
         transition-property: all 0.2s ease-in-out;
       }
       &:hover {
         i::before {
-          color: var(--global-theme-color);
+          color: var(--global-text-color);
         }
       }
     }
