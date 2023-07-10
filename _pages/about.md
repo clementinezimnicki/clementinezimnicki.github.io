@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: clem_pic.png
+  image: clem_pic
   image_cicular: true # crops the image to make it circular
   address: 
     <p style="font-size:23px;font-family:roboto;color:#cf7da2"><b>Clementine Zimnicki</b></p>
