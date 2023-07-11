@@ -21,9 +21,8 @@ social: true  # includes social icons at the bottom of the page
 
 <p style="font-size:40px;"> hi! </p>
 
-I'm a Psychology PhD student at the University of Wisconsin-Madison. 
+<p style="font-size:20px;">I'm a Psychology PhD student at the University of Wisconsin-Madison. </p>
 
-in 2020, I joined the Schloss Visual Reasoning Lab, where I study visual reasoning. I'm interested in how people map visual features to concepts, and how they use those mappings to infer meaning from information visualizations. in addition to the Schloss Lab, I'm affiliated with the Wisconsin Institute for Discovery.
+<p style="font-size:20px;">in 2020, I joined the Schloss Visual Reasoning Lab, where I study visual reasoning. I'm interested in how people map visual features to concepts, and how they use those mappings to infer meaning from information visualizations. in addition to the Schloss Lab, I'm affiliated with the Wisconsin Institute for Discovery.</p>
 
-I graduated in 2020 with a BS in Psychology from the University of Illinois at Urbana-Champaign. there, I was
-advised by Diane Beck, and studied spontaneous EEG alpha oscillations and their influence on visual attention. 
+<p style="font-size:20px;">I graduated in 2020 with a BS in Psychology from the University of Illinois at Urbana-Champaign. there, I was advised by Diane Beck, and studied spontaneous EEG alpha oscillations and their influence on visual attention.</p>
