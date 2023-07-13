@@ -9,9 +9,9 @@ profile:
   image: clem_pic.png
   image_cicular: true # crops the image to make it circular
   address: 
-    <p style="font-size:23px;font-family:roboto;color:#37713e"><b>Clementine Zimnicki</b></p>
-    <p style="font-size:18px;font-family:roboto;color:#37713e">Cognitive Scientist</p>
-    <p style="font-size:18px;font-family:roboto;color:#37713e">University of Wisconsin-Madison</p>
+    <p style="font-size:23px;font-family:roboto;color:#428149"><b>Clementine Zimnicki</b></p>
+    <p style="font-size:18px;font-family:roboto;color:#428149">Cognitive Scientist</p>
+    <p style="font-size:18px;font-family:roboto;color:#428149">University of Wisconsin-Madison</p>
 nav: true
 
 news: false  # includes a list of news items
