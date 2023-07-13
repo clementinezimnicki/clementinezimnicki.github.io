@@ -1,5 +1,5 @@
 ---
-layout: projects
+layout: about
 title: research
 permalink: /research
 nav: true
