@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: does hue variation affect inferences for visualizations?
+description: 
+#img: assets/img/3.jpg
+importance: 2
+category: work
 ---
 
 Every project has a beautiful feature showcase page.
