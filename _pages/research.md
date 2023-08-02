@@ -11,9 +11,9 @@ nav_order: 2
 
 the more intuitive a visualization is, the easier it is to understand what information is being communicated. but what does "intuitive" mean? what aspects of a visualization make it more or less intuitive? my research focuses on understanding these questions. research shows people have expectations about what colors should mean in visualizations (even without looking at legends). knowing what these expectations are, and designing visualizations that match them, can make visualizations easier to interpret and therefore more accessible to wider audiences.
 
-below are some projects I've been working on during my time at UW-Madison. 
+all of my projects concern themselves with two biases people have about the meanings of colors in visualizations. the first bias is called the dark-is-more bias, and leads people to infer that darker regions on maps mean larger quantities. the second is the opaque-is-more bias, which leads people to infer that more opaque (that is, less translucent) regions mean larger quantities. In my work, I have explored how these biases work, including how far they extend and in which situations they may not apply.
 
-all of these projects concern themselves with two biases people have about the meanings of colors in visualizations. the first bias is called the dark-is-more bias, and leads people to infer that darker regions on maps mean larger quantities. the second is the opaque-is-more bias, which leads people to infer that more opaque (that is, less translucent) regions mean larger quantities. In my work, I have explored how these biases work, including how far they extend and in which situations they may not apply.
+below are some projects I have worked on:
 
 <!-- pages/projects.md -->
 <div class="projects">
