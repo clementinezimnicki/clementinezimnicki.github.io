@@ -13,7 +13,7 @@ the more intuitive a visualization is, the easier it is to understand what infor
 
 all of my projects concern themselves with two biases people have about the meanings of colors in visualizations. the first bias is called the dark-is-more bias, and leads people to infer that darker regions on maps mean larger quantities. the second is the opaque-is-more bias, which leads people to infer that more opaque (that is, less translucent) regions mean larger quantities. In my work, I have explored how these biases work, including how far they extend and in which situations they may not apply.
 
-below are some projects I have worked on:
+below are some projects I have worked on.
 
 <!-- pages/projects.md -->
 <div class="projects">
