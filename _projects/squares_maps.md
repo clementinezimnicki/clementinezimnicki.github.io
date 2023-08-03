@@ -12,7 +12,7 @@ category: work
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/squares_white_bg.png" title="2 squares on white background, left is darker" class="img-fluid rounded z-depth-1" width=300px  %}
+        {% include figure.html path="assets/img/squares_white_bg.png" title="2 squares on white background, left is darker" class="img-fluid rounded z-depth-1" width="100px"  %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/squares_black_bg.png" title="2 squares on white background, left is darker" class="img-fluid rounded z-depth-1" %}
