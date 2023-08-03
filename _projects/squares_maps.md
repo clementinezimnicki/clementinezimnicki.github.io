@@ -11,10 +11,10 @@ category: work
 
 For the pair of squares on the white background (left), we expect people to choose the darker one as more. On the black background (right), we expect people to choose the lighter (more opaque) as more.
 <div class="row">
-    <div class="col-sm">
+    <div class="col-sm m-n5">
         {% include figure.html path="assets/img/squares_white_bg.png" title="2 squares on white background, left is darker" class="img-fluid rounded z-depth-1" width="250px"  %}
     </div>
-    <div class="col-sm">
+    <div class="col-sm m-n5">
         {% include figure.html path="assets/img/squares_black_bg.png" title="2 squares on white background, left is darker" class="img-fluid rounded z-depth-1" width="250px" %}
     </div>
 </div>
