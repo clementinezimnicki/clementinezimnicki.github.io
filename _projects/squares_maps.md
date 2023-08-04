@@ -14,4 +14,4 @@ For the pair of squares on the white background (left), we expect people to choo
 <img src="/assets/img/squares_white_bg.png" alt="8 by 8 grid colormap, in shades of blue" style="width:300px">
 <img src="/assets/img/squares_black_bg.png" alt="8 by 8 grid colormap, in dark green and light blue" style="width:300px">
 
-The article for this study is in prep, and will likely be published in 2023-24.
+The article for this study is in prep, and will likely be published in 2023-24. This work was done in collaboration with Karen Schloss.

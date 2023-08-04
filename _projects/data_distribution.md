@@ -14,5 +14,5 @@ Is it possible for data distribution beyond just hotspots to affect inferences? 
 
 My results were far more complicated than I had predicted. We are still making sense of them, but for now, it is safe to say that the dark-is-more bias is strong, though it is possible to reverse it in some cases.
 
-The article for this study is in prep, and will likely be published in 2023.
+The article for this study is in prep, and will likely be published in 2023. This work was done in collaboration with Karen Schloss, Chin Tseng, and Danielle Szafir.
 
