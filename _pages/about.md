@@ -21,8 +21,14 @@ social: true  # includes social icons at the bottom of the page
 
 <p style="font-size:40px;"> hi! </p>
 
-<p style="font-size:20px;">I'm a Psychology PhD student at the University of Wisconsin-Madison. </p>
+<p style="font-size:20px;">I'm a graduate student researcher at the University of Wisconsin-Madison. </p>
+
+<p style="font-size:20px;">I work in the <a href="https://schlosslab.discovery.wisc.edu/">Schloss Visual Reasoning Lab</a>, where I study how people infer meaning about colors in visualizations. In the 3+ years I have spent here, I have gained experience in experimental design (including survey design and A/B testing), programming, statistical analysis, and science communication. I have presented this research at several conferences 
+</p>
+
 
 <p style="font-size:20px;">in 2020, I joined the <a href="https://schlosslab.discovery.wisc.edu/">Schloss Visual Reasoning Lab</a>, where I study how people infer meaning about colors in visualizations. my lab is affiliated with the <a href="https://wid.wisc.edu/">Wisconsin Institute for Discovery</a> as well as the <a href="https://psych.wisc.edu/">Psychology Department</a> at UW-Madison.</p>
+
+
 
 <p style="font-size:20px;">I graduated in 2020 with a BS in Psychology from the University of Illinois at Urbana-Champaign. there, I was a research assistant in Diane Beck's <a href="https://becklab.beckman.illinois.edu/">Attention and Perception Lab</a>. my senior thesis was on the topic of EEG alpha oscillations and their influence on visual attention. </p>
