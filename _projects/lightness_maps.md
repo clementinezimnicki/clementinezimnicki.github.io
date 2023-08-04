@@ -13,3 +13,5 @@ In 2022, I began a project to test this. I found that, for maps with small light
 
 <img src="/assets/img/blue_lightDiff5_left_0.png" alt="8 by 8 grid colormap, in shades of blue" style="width:100px">
 <img src="/assets/img/grbl_lightDiff5_left_4.png" alt="8 by 8 grid colormap, in dark green and light blue" style="width:100px">
+
+The article for this study is in prep, and will likely be published in 2023-24.

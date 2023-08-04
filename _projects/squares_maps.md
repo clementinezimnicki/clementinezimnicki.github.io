@@ -19,3 +19,5 @@ For the pair of squares on the white background (left), we expect people to choo
     </div>
 </div>
 
+
+The article for this study is in prep, and will likely be published in 2023-24.
