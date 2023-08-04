@@ -11,7 +11,7 @@ The dark-is-more bias relies on people being able to tell that there are darker 
 
 In 2022, I began a project to test this. I found that, for maps with small lightness differences, people consistently choose the darker side as meaning larger quantities less often when there are also variations in hue. Below are some examples of the maps I used. 
 
-<img src="/assets/img/blue_lightDiff5_left_0.png" alt="8 by 8 grid colormap, in shades of blue" style="width:200px">
-<img src="/assets/img/grbl_lightDiff5_left_4.png" alt="8 by 8 grid colormap, in dark green and light blue" style="width:200px">
+<img src="/assets/img/blue_lightDiff5_left_0.png" alt="8 by 8 grid colormap, in shades of blue" style="width:300px">
+<img src="/assets/img/grbl_lightDiff5_left_4.png" alt="8 by 8 grid colormap, in dark green and light blue" style="width:300px">
 
 The article for this study is in prep, and will likely be published in 2023-24. This work was done in collaboration with Karen Schloss and Danielle Szafir.
