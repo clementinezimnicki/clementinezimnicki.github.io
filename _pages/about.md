@@ -25,7 +25,7 @@ social: true  # includes social icons at the bottom of the page
 
 <p style="font-size:20px;">I work in the <a href="http://concepts.psych.wisc.edu/"><b>Knowledge and Concepts Lab</b></a>, where I study individual differences in color perception. 
 
-In my 4+ years at UW-Madison, I have gained experience in experimental design (including survey design and <br></br>A/B testing), programming, statistical analysis, and science communication. I have presented this research at several conferences, including Vision Sciences Society and IEEE VIS. 
+In my 4+ years at UW-Madison, I have gained experience in experimental design (including survey design and <br>A/B testing), programming, statistical analysis, and science communication. I have presented this research at several conferences, including Vision Sciences Society and IEEE VIS. 
 </p>
 
 <p style="font-size:20px;">In addition to my graduate program, I have recently (as of summer 2024) begun interning at Sandia National Labs! There, I study how the colors used in hazard maps affect people's evacuation choices, especially when there is uncertainty.</p>
