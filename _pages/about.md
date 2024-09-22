@@ -28,6 +28,6 @@ social: true  # includes social icons at the bottom of the page
 In my 4+ years at UW-Madison, I have gained experience in experimental design (including survey design and <br></br>A/B testing), programming, statistical analysis, and science communication. I have presented this research at several conferences, including Vision Sciences Society and IEEE VIS. 
 </p>
 
-<p style="font-size:20px;">In addition to my graduate program, I have recently (as of summer 2024) become an intern working at Sandia National Labs! There, I study how the colors used in hazard maps affect people's evacuation choices, especially when there is uncertainty.</p>
+<p style="font-size:20px;">In addition to my graduate program, I have recently (as of summer 2024) begun interning at Sandia National Labs! There, I study how the colors used in hazard maps affect people's evacuation choices, especially when there is uncertainty.</p>
 
 <p style="font-size:20px;">Before graduate school, I completed a BS in Psychology at the University  <br></br>of Illinois at Urbana-Champaign. There, I did research in Diane Beck's<br></br> <a href="https://becklab.beckman.illinois.edu/"><b>Attention and Perception Lab</b></a>, where I used EEG to investigate alpha oscillations.</p>
