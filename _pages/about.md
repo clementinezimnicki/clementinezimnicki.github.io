@@ -23,7 +23,11 @@ social: true  # includes social icons at the bottom of the page
 
 <p style="font-size:20px;">I'm a graduate student researcher at the University of Wisconsin-Madison. </p>
 
-<p style="font-size:20px;">I work in the <a href="https://schlosslab.discovery.wisc.edu/">Schloss Visual Reasoning Lab</a>, where I study how people infer meaning about colors in visualizations. In the 3+ years I have spent here, I have gained experience in experimental design (including survey design and A/B testing), programming, statistical analysis, and science communication. I have presented this research at several conferences, including Vision Sciences Society and IEEE VIS. 
+<p style="font-size:20px;">I work in the <a href="http://concepts.psych.wisc.edu/">Knowledge and Concepts Lab</a>, where I study individual differences in color perception. 
+
+In my 4+ years at UW-Madison, I have gained experience in experimental design (including survey design and A/B testing), programming, statistical analysis, and science communication. I have presented this research at several conferences, including Vision Sciences Society and IEEE VIS. 
 </p>
+
+<p>In addition to my graduate program, I have recently (as of summer 2024) become an intern working at Sandia National Labs! There, I study how people interpret hazard maps (like maps of wildfires), and how the colors used in these maps affect people's evacuation choices, especially when there is uncertainty.</p>
 
 <p style="font-size:20px;">Before graduate school, I completed a BS in Psychology at the University of Illinois at Urbana-Champaign. There, I did research in Diane Beck's <a href="https://becklab.beckman.illinois.edu/">Attention and Perception Lab</a>, where I used electroencephalograpy to investigate alpha oscillations. During my time there, I gained two years of experience in EEG methods, experimental design, A/B testing, and programming.</p>
