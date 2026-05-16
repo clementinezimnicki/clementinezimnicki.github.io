@@ -106,20 +106,20 @@
         });
     })();
 
-    // ─── Snaking sand-grain ribbon (canvas) ───
+    // ─── 70s retro rainbow ribbon (canvas) ───
     (function() {
       const SVG_NS = 'http://www.w3.org/2000/svg';
+      // Warm-to-cool rainbow stripes — each color is one parallel band running the full ribbon length
       const PALETTE = [
-        '#A85567',  // muted red
-        '#C77A4A',  // muted orange
-        '#C7A04A',  // muted ochre / yellow
-        '#6B8C5A',  // muted green
-        '#5A7A9E'   // muted blue
+        '#cca573',  // yellow
+        '#d78c6c',  // orange
+        '#d16c77',  // pink-red
+        '#a45b84',  // red-purple
+        '#724a7d'   // purple
       ];
-      const TILE_SIZE = 14;        // size of one "pixel" in the ribbon (px); originally 14
-      const RIBBON_TILES = 5;      // ribbon thickness, in tiles
-      const STEP = TILE_SIZE / 2;  // sample density along path (must be < TILE_SIZE); originally 3
-      const BAND_WIDTH = TILE_SIZE * RIBBON_TILES;
+      const STRIPE_WIDTH = 12;     // px per stripe
+      const STRIPE_COUNT = PALETTE.length;
+      const STEP = 4;              // sample density along path; smaller = smoother curves
       const CORNER_RADIUS = 60;    // rounding radius at each corner
 
       const main = document.querySelector('main');
@@ -128,12 +128,6 @@
       if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
       const ctx = canvas.getContext('2d');
-
-      function hexToRgb(hex) {
-        const m = hex.match(/^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i);
-        return m ? [parseInt(m[1],16), parseInt(m[2],16), parseInt(m[3],16)] : [0,0,0];
-      }
-      const PALETTE_RGB = PALETTE.map(hexToRgb);
 
       // Reusable hidden SVG path for arc-length measurement (off-screen but in the DOM)
       const measureSvg = document.createElementNS(SVG_NS, 'svg');
@@ -176,7 +170,7 @@
         const W = main.offsetWidth;
         const H = main.offsetHeight;
         // DPR pinned to 1: a tall (~5000px+) page at DPR 2 is a 100+ MB canvas
-        // buffer that kills load. Dots are organic enough that 1× looks fine.
+        // buffer that kills load. Strokes are anti-aliased so 1× still looks smooth.
         const dpr = 1;
         canvas.width  = Math.max(1, Math.round(W * dpr));
         canvas.height = Math.max(1, Math.round(H * dpr));
@@ -201,47 +195,12 @@
         }
         pts.push({ x: cx0, y: H });
 
-        // Measure the rounded path
         measurePath.setAttribute('d', buildPath(pts, CORNER_RADIUS));
         const totalLength = measurePath.getTotalLength();
 
-        // Polyline arc length for anchor placement, scaled to the real (curved) length
-        const cumD = [0];
-        for (let i = 1; i < pts.length; i++) {
-          cumD.push(cumD[i-1] + Math.hypot(pts[i].x - pts[i-1].x, pts[i].y - pts[i-1].y));
-        }
-        const scale = totalLength / cumD[cumD.length - 1];
-        const anchors = [];
-        for (let i = 0; i < sectionTops.length; i++) {
-          const a = 2 * i;
-          const b = Math.min(2 * i + 1, pts.length - 1);
-          anchors.push(((cumD[a] + cumD[b]) / 2) * scale);
-        }
-
-        function colorAt(d) {
-          if (d <= anchors[0]) return PALETTE_RGB[0];
-          if (d >= anchors[anchors.length - 1]) return PALETTE_RGB[PALETTE_RGB.length - 1];
-          for (let i = 0; i < anchors.length - 1; i++) {
-            if (d <= anchors[i+1]) {
-              const f = (d - anchors[i]) / (anchors[i+1] - anchors[i]);
-              const c0 = PALETTE_RGB[i], c1 = PALETTE_RGB[i+1];
-              return [c0[0] + (c1[0]-c0[0])*f, c0[1] + (c1[1]-c0[1])*f, c0[2] + (c1[2]-c0[2])*f];
-            }
-          }
-          return PALETTE_RGB[PALETTE_RGB.length - 1];
-        }
-
-        // Grid-snap pass: claim each cell the path passes through and remember
-        // the color where it was first hit. Same cell hit twice keeps the
-        // earlier color (matters at corners where the ribbon doubles back).
-        const cells = new Map(); // key "col,row" -> "r,g,b"
-
-        // Offsets across the band, centered on the path, in tile-width steps
-        const halfTiles = (RIBBON_TILES - 1) / 2;
-        const bandOffsets = [];
-        for (let i = 0; i < RIBBON_TILES; i++) {
-          bandOffsets.push((i - halfTiles) * TILE_SIZE);
-        }
+        // Sample along the path; for each stripe, accumulate its perpendicular-offset center points
+        const halfStripes = (STRIPE_COUNT - 1) / 2;
+        const stripePoints = Array.from({ length: STRIPE_COUNT }, () => []);
 
         for (let dist = 0; dist <= totalLength; dist += STEP) {
           const p  = measurePath.getPointAtLength(dist);
@@ -250,28 +209,27 @@
           const len = Math.hypot(dx, dy) || 1;
           const nx = -dy / len, ny = dx / len; // perpendicular unit vector
 
-          const [r, g, b] = colorAt(dist);
-          const colorStr = (r | 0) + ',' + (g | 0) + ',' + (b | 0);
-
-          for (let i = 0; i < bandOffsets.length; i++) {
-            const off = bandOffsets[i];
-            const px = p.x + nx * off;
-            const py = p.y + ny * off;
-            const col = Math.floor(px / TILE_SIZE);
-            const row = Math.floor(py / TILE_SIZE);
-            const key = col + ',' + row;
-            if (cells.has(key)) continue;
-            cells.set(key, colorStr);
+          for (let i = 0; i < STRIPE_COUNT; i++) {
+            const off = (i - halfStripes) * STRIPE_WIDTH;
+            stripePoints[i].push(p.x + nx * off, p.y + ny * off);
           }
         }
 
-        // Draw all claimed cells as solid squares.
-        for (const [key, color] of cells) {
-          const sep = key.indexOf(',');
-          const col = +key.slice(0, sep);
-          const row = +key.slice(sep + 1);
-          ctx.fillStyle = 'rgb(' + color + ')';
-          ctx.fillRect(col * TILE_SIZE, row * TILE_SIZE, TILE_SIZE, TILE_SIZE);
+        // +1 lineWidth so adjacent stripes overlap by 1px — avoids hairline gaps from antialiasing
+        ctx.lineWidth = STRIPE_WIDTH + 1;
+        ctx.lineCap = 'round';
+        ctx.lineJoin = 'round';
+
+        for (let i = 0; i < STRIPE_COUNT; i++) {
+          const flat = stripePoints[i];
+          if (flat.length < 4) continue;
+          ctx.strokeStyle = PALETTE[i];
+          ctx.beginPath();
+          ctx.moveTo(flat[0], flat[1]);
+          for (let j = 2; j < flat.length; j += 2) {
+            ctx.lineTo(flat[j], flat[j + 1]);
+          }
+          ctx.stroke();
         }
       }
 
