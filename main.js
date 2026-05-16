@@ -180,9 +180,12 @@
         ctx.clearRect(0, 0, W, H);
 
         const sectionTops = Array.from(sections).map(s => s.offsetTop);
-        const INSET = Math.max(18, Math.min(W * 0.025, 50));
-        const rightX = W - INSET;
-        const leftX  = INSET;
+        // Align outer edge of the band with the page gutter (where the nav link "publications" sits)
+        const header = document.querySelector('.site-header');
+        const gutter = header ? parseFloat(getComputedStyle(header).paddingLeft) : 24;
+        const bandHalfWidth = (STRIPE_COUNT * STRIPE_WIDTH + 1) / 2;
+        const rightX = W - gutter - bandHalfWidth;
+        const leftX  = gutter + bandHalfWidth;
 
         // Snake corner-points
         const pts = [];
