@@ -1,8 +1,8 @@
     :root {
       /* palette — warm, restrained, designed-by-a-color-person */
-      --paper:        #ffdfe4;
-      --paper-deep:   #f4c3cb;
-      --paper-edge:   #e69ba7;
+      --paper:        #fff1df;
+      --paper-deep:   #f4dec3;
+      --paper-edge:   #e6c49b;
       --ink:          #1A1410;
       --ink-soft:     #5c3d5b;
       --ink-faint:    #9c709b;
