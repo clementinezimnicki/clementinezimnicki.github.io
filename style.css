@@ -22,6 +22,8 @@
 
       /* spacing */
       --gutter: clamp(1.5rem, 5vw, 5rem);
+      /* horizontal padding for body content — gutter + ribbon clearance so content sits inside the ribbon */
+      --content-x: calc(var(--gutter) + 5rem);
       --section-y: clamp(4rem, 10vw, 9rem);
     }
 
@@ -152,7 +154,7 @@
 
     /* ─────────────  HERO  ───────────── */
     .hero {
-      padding: clamp(3rem, 8vw, 7rem) var(--gutter) clamp(4rem, 9vw, 8rem);
+      padding: clamp(3rem, 8vw, 7rem) var(--content-x) clamp(4rem, 9vw, 8rem);
       max-width: 1400px;
       margin: 0 auto;
       position: relative;
@@ -339,7 +341,7 @@
 
     /* ─────────────  INTERACTIVE: BOUNDARY  ───────────── */
     .boundary {
-      padding: var(--section-y) var(--gutter);
+      padding: var(--section-y) var(--content-x);
       max-width: 1400px;
       margin: 0 auto;
 
@@ -540,7 +542,7 @@
 
     /* ─────────────  WORK / RESEARCH  ───────────── */
     .work {
-      padding: var(--section-y) var(--gutter);
+      padding: var(--section-y) var(--content-x);
       max-width: 1400px;
       margin: 0 auto;
     }
@@ -632,7 +634,7 @@
 
     /* ─────────────  RESUME  ───────────── */
     .resume {
-      padding: var(--section-y) var(--gutter);
+      padding: var(--section-y) var(--content-x);
       max-width: 1400px;
       margin: 0 auto;
     }
@@ -782,7 +784,7 @@
 
     /* ─────────────  PUBLICATIONS  ───────────── */
     .publications {
-      padding: var(--section-y) var(--gutter);
+      padding: var(--section-y) var(--content-x);
       max-width: 1400px;
       margin: 0 auto;
     }
@@ -850,7 +852,7 @@
 
     /* ─────────────  CONTACT / OUTRO  ───────────── */
     .contact {
-      padding: var(--section-y) var(--gutter);
+      padding: var(--section-y) var(--content-x);
       max-width: 1400px;
       margin: 0 auto;
       border-top: 1px solid var(--rule);
@@ -931,7 +933,7 @@
 
     /* ─────────────  FOOTER  ───────────── */
     footer {
-      padding: 3rem var(--gutter);
+      padding: 3rem var(--content-x);
       border-top: 1px solid var(--rule);
       display: flex;
       justify-content: space-between;
