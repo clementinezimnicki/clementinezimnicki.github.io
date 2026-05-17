@@ -602,9 +602,9 @@
       width: 4.5rem;
       height: 6rem;
     }
-    .area:nth-child(1) .area-chip .chip-swatch { background: #D4582A; }
-    .area:nth-child(2) .area-chip .chip-swatch { background: #2C4756; }
-    .area:nth-child(3) .area-chip .chip-swatch { background: #7A8E62; }
+    .area:nth-child(1) .area-chip .chip-swatch { background: #DD5144; }
+    .area:nth-child(2) .area-chip .chip-swatch { background: #A42D70; }
+    .area:nth-child(3) .area-chip .chip-swatch { background: #5C2F79; }
 
     .area-body h3 {
       font-family: 'Quicksand', sans-serif;
